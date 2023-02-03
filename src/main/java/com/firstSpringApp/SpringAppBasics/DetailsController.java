@@ -12,6 +12,8 @@ public class DetailsController {
     public List<Details> getAllDetails(){
         return Arrays.asList(
                 new Details("harish", 25, "Developer"),
+                new Details("harish", 25, "UI Dev"),
+                new Details("harish", 25, "UI Dev"),
                 new Details("harish", 25, "UI Dev")
                 );
     }
